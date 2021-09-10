@@ -13,491 +13,585 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style2.css">
-
+    <link rel="stylesheet" media="screen and (min-width: 400px)" href="./css/mobile_view.css">
+    <script src="js/app.js"></script>
     <title>My project for food</title>
+
 </head>
 <body>
-    <header class = "container">
-        <nav>
-            <div class = "container_icons">
-                <a href="#"><img src = "./icons/facebook.svg" alt = "This is icon" id = "container_icons_image"></a>
-                <a href="#"><img src = "./icons/instagram.svg" alt = "This is icon" id = "container_icons_image"></a>
-                <a href="#"><img src = "./icons/twitter.svg" alt = "This is icon" id ="container_icons_image"></a>
-            </div>
-            <div class = "personalize">
-                <div class = "personalize__elements">
-                    <img src = "./icons/user-icon.svg" alt = "This is user name">
-                    <a href="#" class = "personalize__text">Log in</a>
-                </div>
 
-                <span class = "divider">|</span>
-
-                <div class = "personalize__elements">
-                    <img src = "./icons/edit.svg" alt = "This is user name">
-                    <a href="#" class = "personalize__text">Register Now</a>
-                </div>
-
-                <span class = "divider">|</span>
-
-                <div class = "personalize__elements">
-                    <img src = "./icons/cart.svg" alt = "This is user name">
-                    <a href="#" class = "personalize__text">Cart : 0 items</a>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <div>
-        <div class = "base_line">
-            <div class = "Contact_us">
-                <img src="./images/call.png" class = "base_line_call">
-                <p><strong>Call us : 123456789</strong></p>
-            </div>
-
-            <img src="./images/WhatsApp Image 2021-09-04 at 16.56.00.jpeg" alt="Logo" class = "base_line_logo">
-
-            <div>
-                <button class = "base_line_button">
-                    Order Now
-                </button>
-            </div>            
+    <div class="responsive">
+        <div class="navigation_panel">
         </div>
-        <div class = "navbar shadow">
-            <div class = "navigation">
-                <a href = "#" class = "default_set">Home</a>
-                <a href = "#About_us">About Us</a>
-                <a href = "#top-deals">Top deals</a>
-                <a href = "#country_items">Items</a>
-                <a href = "#services">Services</a>
-                <a href = "#latest_blog">Latest Blogs</a>
+        <div class="site-content-wrapper">
+            <div class="nav-trigger">
+            </div>
+            <div class="site-content">
+                <header class = "container">
+                    <nav>
+                        <div class = "container_icons">
+                            <a href="#"><img src = "./icons/facebook.svg" alt = "This is icon" id = "container_icons_image"></a>
+                            <a href="#"><img src = "./icons/instagram.svg" alt = "This is icon" id = "container_icons_image"></a>
+                            <a href="#"><img src = "./icons/twitter.svg" alt = "This is icon" id ="container_icons_image"></a>
+                        </div>
+                        <div class = "personalize">
+                            <div class = "personalize__elements">
+                                <img src = "./icons/user-icon.svg" alt = "This is user name">
+                                <a href="#" class = "personalize__text">Log in</a>
+                            </div>
+            
+                            <span class = "divider">|</span>
+            
+                            <div class = "personalize__elements">
+                                <img src = "./icons/edit.svg" alt = "This is user name">
+                                <a href="#" class = "personalize__text">Register Now</a>
+                            </div>
+            
+                            <span class = "divider">|</span>
+            
+                            <div class = "personalize__elements">
+                                <img src = "./icons/cart.svg" alt = "This is user name">
+                                <a href="#" class = "personalize__text">Cart : 0 items</a>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            
+                <div>
+                    <div class = "base_line">
+                        <div class = "Contact_us">
+                            <img src="./images/call.png" class = "base_line_call">
+                            <p><strong>Call us : 123456789</strong></p>
+                        </div>
+            
+                        <img src="./images/WhatsApp Image 2021-09-04 at 16.56.00.jpeg" alt="Logo" class = "base_line_logo">
+            
+                        <div>
+                            <button class = "base_line_button">
+                                Order Now
+                            </button>
+                        </div>            
+                    </div>
+                    <div class = "navbar shadow">
+                        <div class = "navigation">
+                            <a href = "#" class = "default_set">Home</a>
+                            <a href = "#About_us">About Us</a>
+                            <a href = "#top-deals">Top deals</a>
+                            <a href = "#country_items">Items</a>
+                            <a href = "#services">Services</a>
+                            <a href = "#latest_blog">Latest Blogs</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class = "page_explore">
+                    <div class = "container_bar">
+                        <div class = "Welcome_to">
+                            <p>Welcome foodies on  </p>
+                            <img src="./images/WhatsApp Image 2021-09-04 at 16.56.00.jpeg" class = "logo">
+                        </div>
+                    </div>
+                    <div class = "off_announce">Foodie Friday Upto <span class = "percentage">50 %</span> OFF</div>
+                    <p class = "About">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ipsa non sunt earum aliquam, expedita quibusdam, temporibus vel optio, dolore repellat porro. Perferendis, neque ratione fugit animi ullam facere totam.</p>
+                    <div class = "button">
+                        <button class = "Read_More">Read More</button>
+                        <button class= "base_line_button">Order Now</button>
+                    </div>
+                </div>
+            
+                <section class = "top-items" id = "top-deals">
+                    <div class = "container">
+                        <h1 class = "section-heading">TOP DEALS
+                        </h1>
+                            <div class="foodmenu1">
+                                <div class="item_1">
+                                    <img src="./images/burger.jpg" alt="Burger" class = "image_format">
+                                    <div class = "item_title">
+                                        <h2>Burger</h2>
+                                    </div>
+                                    <hr>
+                                    <div class="stars">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/star-grey.svg" alt="" class = "star_info">
+                                    </div>
+                                    <div class = "price">
+                                        Starting @ 50/-
+                                    </div>
+                                    <div class = "Add_to_cart">
+                                        <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
+                                        <button class = "Add_cart">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+            
+                                <div class="item_1">
+                                    <img src="./images/pizza.jpg" alt="Pizza" class = "image_format">
+                                    <div class = "item_title">
+                                        <h2>Burger</h2>
+                                    </div>
+                                    <hr>
+                                    <div class="stars">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/star-grey.svg" alt="" class = "star_info">
+                                    </div>
+                                    <div class = "price">
+                                        Starting @ 150/-
+                                    </div>
+                                    <div class = "Add_to_cart">
+                                        <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
+                                        <button class = "Add_cart">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+            
+                                <div class="item_1">
+                                    <img src="./images/noodles.jpg" alt="Noodles" class = "image_format">
+                                    <div class = "item_title">
+                                        <h2>Burger</h2>
+                                    </div>
+                                    <hr>
+                                    <div class="stars">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/star-grey.svg" alt="" class = "star_info">
+                                    </div>
+                                    <div class = "price">
+                                        Starting @ 120/-
+                                    </div>
+                                    <div class = "Add_to_cart">
+                                        <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
+                                        <button class = "Add_cart">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+            
+                                <div class="item_1">
+                                    <img src="./images/Donuts.jpg" alt="Noodles" class = "image_format">
+                                    <div class = "item_title">
+                                        <h2>Burger</h2>
+                                    </div>
+                                    <hr>
+                                    <div class="stars">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/star-grey.svg" alt="" class = "star_info">
+                                    </div>
+                                    <div class = "price">
+                                        Starting @ 110/-
+                                    </div>
+                                    <div class = "Add_to_cart">
+                                        <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
+                                        <button class = "Add_cart">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="foodmenu2">
+                                <div class="item_2">
+                                    <img src="./images/masala_dosa.jpg" alt="dosa" class = "image_format">
+                                    <div class = "item_title">
+                                        <h2>Dosa</h2>
+                                    </div>
+                                    <hr>
+                                    <div class="stars">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/star-grey.svg" alt="" class = "star_info">
+                                    </div>
+                                    <div class = "price">
+                                        Starting @ 140/-
+                                    </div>
+                                    <div class = "Add_to_cart">
+                                        <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
+                                        <button class = "Add_cart">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+            
+                                <div class="item_2">
+                                    <img src="./images/idli.jpg" alt="idle" class = "image_format">
+                                    <div class = "item_title">
+                                        <h2>Idli</h2>
+                                    </div>
+                                    <hr>
+                                    <div class="stars">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/star-grey.svg" alt="" class = "star_info">
+                                    </div>
+                                    <div class = "price">
+                                        Starting @ 150/-
+                                    </div>
+                                    <div class = "Add_to_cart">
+                                        <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
+                                        <button class = "Add_cart">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+            
+                                <div class="item_2">
+                                    <img src="./images/paneer.jpg" alt="paneer" class = "image_format">
+                                    <div class = "item_title">
+                                        <h2>Shahi Paneer</h2>
+                                    </div>
+                                    <hr>
+                                    <div class="stars">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/star-grey.svg" alt="" class = "star_info">
+                                    </div>
+                                    <div class = "price">
+                                        Starting @ 190/-
+                                    </div>
+                                    <div class = "Add_to_cart">
+                                        <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
+                                        <button class = "Add_cart">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+            
+                                <div class="item_2">
+                                    <img src="./images/biryani.jpg" alt="biryani" class = "image_format">
+                                    <div class = "item_title">
+                                        <h2>Biryani</h2>
+                                    </div>
+                                    <hr>
+                                    <div class="stars">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/start-filled.svg" alt="" class = "star_info">
+                                        <img src="./icons/star-grey.svg" alt="" class = "star_info">
+                                    </div>
+                                    <div class = "price">
+                                        Starting @ 110/-
+                                    </div>
+                                    <div class = "Add_to_cart">
+                                        <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
+                                        <button class = "Add_cart">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <section class = "About-NM-FOOD" id = "About_us">
+                    <div class = "container">
+                        <h1 class = "section-heading">About NM Food</h1>
+                        <div class = "about__me">
+                            <img src="./images/WhatsApp Image 2021-09-04 at 16.56.00.jpeg" alt="">
+                            <div class = "about__content">
+                                <h3>
+                                    NM Food is a food delivery established in September 2021.
+                                </h3>
+                                <br>
+                                <div>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat dolorem officiis corporis non repellendus natus? Quasi voluptas rerum pariatur odio exercitationem dignissimos natus, optio distinctio voluptatum ipsam dolorem veniam expedita.
+                                    <br>
+                                    <br>
+                                    <div class = "About_button">
+                                    <button class = "About-NM-FOOD_readmore">
+                                        Read More
+                                    </button>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <section class="top-items" id = "country_items">
+                    <div class = "container">
+                        <h1 class = "section-heading">Items</h1>
+                        <div class="foodmenu1" >
+                            <div class = "item_2">
+                                <img src="./images/indian_food.jpg" alt="" class = "image_format">
+                                <div class = "item_title">
+                                    <h2>Indian Food</h2>
+                                </div>
+                                <hr>
+                                <div class = "button_explore">
+                                    <button class = "explore_me">
+                                        Explore More
+                                    </button>
+                                </div>
+                            </div>
+            
+                            <div class = "item_2">
+                                <img src="./images/italian.jpg" alt="" class = "image_format">
+                                <div class = "item_title">
+                                    <h2>Italain Food</h2>
+                                </div>
+                                <hr>
+                                <div class = "button_explore">
+                                    <button class = "explore_me">
+                                        Explore More
+                                    </button>
+                                </div>
+                            </div>
+            
+                            <div class = "item_2">
+                                <img src="./images/chinese.jpg" alt="" class = "image_format">
+                                <div class = "item_title">
+                                    <h2>Chinese Food</h2>
+                                </div>
+                                <hr>
+                                <div class = "button_explore">
+                                    <button class = "explore_me">
+                                        Explore More
+                                    </button>
+                                </div>
+                            </div>
+            
+                            <div class = "item_2">
+                                <img src="./images/spanish.jpg" alt="" class = "image_format">
+                                <div class = "item_title">
+                                    <h2>Spanish Food</h2>
+                                </div>
+                                <hr>
+                                <div class = "button_explore">
+                                    <button class = "explore_me">
+                                        Explore More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <section class = "our-services" id = "services">
+                    <div>
+                        <h1 class = "section-heading">
+                            Our Services
+                        </h1>
+                        <div class = "class-wrapper">
+                            <div class = "service1" id = "service1">
+                                <img src="./icons/transport.svg" alt="" class = "transport">
+                                <h2>
+                                    Free Home Delivery
+                                </h2>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quasi repudiandae facere voluptates blanditiis tempora. Ex dolore aut illo cumque dolorum veniam praesentium illum accusamus repellendus error, nam, incidunt obcaecati.
+                                </p>
+                                <button class = "About-NM-FOOD_readmore ">
+                                    Read More
+                                </button>
+                            </div>
+            
+                            <div class = "service1">
+                                <img src="./icons/bag.svg" alt="" class = "transport">
+                                <h2>
+                                    Fast Delivery
+                                </h2>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quasi repudiandae facere voluptates blanditiis tempora. Ex dolore aut illo cumque dolorum veniam praesentium illum accusamus repellendus error, nam, incidunt obcaecati.
+                                </p>
+                                <button class = "About-NM-FOOD_readmore btn_delivery">
+                                    Read More
+                                </button>
+                            </div>
+            
+                            <div class = "service1">
+                                <img src="./icons/usd.svg" alt="" class = "transport">
+                                <h2>
+                                    Cashback on First five orders
+                                </h2>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quasi repudiandae facere voluptates blanditiis tempora. Ex dolore aut illo cumque dolorum veniam praesentium illum accusamus repellendus error, nam, incidunt obcaecati.
+                                </p>
+                                <button class = "About-NM-FOOD_readmore ">
+                                    Read More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+            
+                <section class = "latest-blog" id = "latest_blog">
+                    <div class="container">
+                        <h1 class = "section-heading">Latest Blog</h1>
+                        <div class="blog_wrapper">
+                            <div class="blog1">
+                                <div>
+                                    <img src="./images/pizzablog.jpg" alt="" class = "blog_image">
+                                </div>
+                                <div class="blog_content">
+                                    <div class="heading_info">
+                                        <div>
+                                            Sept. 05, 2021
+                                        </div>
+                                        <div>
+                                            <strong>By Foody lover</strong>
+                                        </div>
+                                        <div>
+                                            <strong>12k  </strong>Likes
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <h3>Top 10 ranking in asia for pizza</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam quia ea odio harum corrupti accusantium adipisci? Hic, incidunt quam quos iste suscipit enim eos, provident inventore eligendi, fugiat earum?</p>
+                                </div>
+                            </div>
+            
+                            <div class="blog2">
+                                <div>
+                                    <img src="./images/blog_burger.jpg" alt="" class = "blog_image">
+                                </div>
+                                <div class="blog_content">
+                                    <div class="heading_info">
+                                        <div>
+                                            Sept. 05, 2021
+                                        </div>
+                                        <div>
+                                             <strong>By Nikhil</strong>
+                                        </div>
+                                        <div>
+                                            <strong>12k  </strong>Likes
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <h3> Actually Burger here is awesome.</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam quia ea odio harum corrupti accusantium adipisci? Hic, incidunt quam quos iste suscipit enim eos, provident inventore eligendi, fugiat earum?</p>
+                                </div>
+                            </div>
+            
+                            <div class="blog3">
+                                <div>
+                                    <img src="./images/dosa_review.jpg" alt="" class = "blog_image">
+                                </div>
+                                <div class="blog_content">
+                                    <div class="heading_info">
+                                        <div>
+                                            Sept. 05, 2021
+                                        </div>
+                                        <div>
+                                            <strong>By South taste</strong>
+                                        </div>
+                                        <div>
+                                            <strong>20k  </strong>Likes
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <h3>Tremendous dosa I have ever eaten</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam quia ea odio harum corrupti accusantium adipisci? Hic, incidunt quam quos iste suscipit enim eos, provident inventore eligendi, fugiat earum?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <center><button class = "Blog_view_more">View More</button></center>
+                    </div>
+                </section>
+            
+                <section class = "ending_page">
+                    <div class = "top_ending">
+                        <img src="./images/logo2.jpeg" alt="" class = "logo2">
+                        <div class="country">
+                            <select id="choice" class = "country_selection">
+                                <option><p>India</p></option>
+                                <option>Australia</option>
+                                <option>China</option>
+                                <option>USA</option>
+                                <option>Russia</option>
+                            </select>
+                        </div>
+                    </div>
+            
+                    <div class="ending_content">
+                        <div class="tag_heading" id = "tag_one">
+                            <div>
+                                <strong>
+                                    COMPANY
+                                </strong>
+                            </div>
+                            <div>Who we are</div>
+                            <div>Blog</div>
+                            <div>Careers</div>
+                            <div>Report Fraud</div>
+                            <div>Investor Relations</div>
+                        </div>
+            
+                        <div class="tag_heading" id = "tag_two">
+                            <div>
+                                <strong>
+                                    For foodies
+                                </strong>
+                            </div>
+                            <div>Code of Conduct</div>
+                            <div>Community </div>
+                            <div>Blogger Help</div>
+                            <div>Mobile Apps</div>
+                        </div>
+            
+                        <div class="tag_heading" id = "tag_three">
+                            <div>
+                                <strong>
+                                    For Restaurants
+                                </strong>
+                            </div>
+                            <div>Add Restaurant</div>
+                            <div>Business App</div>
+                            <div>Restaurant Widgets</div>
+                            <div>Product for Businesses</div>
+                        </div>
+            
+                        <div class="tag_heading" id = "tag_four">
+                            <div>
+                                <strong>
+                                    For You
+                                </strong>
+                            </div>
+                            <div>Privacy</div>
+                            <div>Terms</div>
+                            <div>Security</div>
+                            <div>SiteMap</div>
+                        </div>
+                    </div>
+                    <div class="app_stores" id = "">
+                        <center>
+                            <img src="./images/applestore.PNG" alt="" class = "image_format_app">
+                            <img src="./images/googleplay.PNG" alt="" class = "image_format_app">
+                        </center>
+                    </div>
+                </section>
+                <hr>
+                <footer>
+                    <div>
+                        By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2021 © NM Food™ Ltd. All rights reserved.
+                    </div>
+                </footer>
+
+
             </div>
         </div>
     </div>
-
-    <div class = "page_explore">
-        <div class = "container_bar">
-            <div class = "Welcome_to">
-                <p>Welcome foodies on</p>
-                <img src="./images/WhatsApp Image 2021-09-04 at 16.56.00.jpeg" class = "logo">
-            </div>
-        </div>
-        <div class = "off_announce">Foodie Friday Upto <span class = "percentage">50 %</span> OFF</div>
-        <p class = "About">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ipsa non sunt earum aliquam, expedita quibusdam, temporibus vel optio, dolore repellat porro. Perferendis, neque ratione fugit animi ullam facere totam.</p>
-        <div class = "button">
-            <button class = "Read_More">Read More</button>
-            <button class= "base_line_button">Order Now</button>
-        </div>
-    </div>
-
-    <section class = "top-items" id = "top-deals">
-        <div class = "container">
-            <h1 class = "section-heading">TOP DEALS
-            </h1>
-                <div class="foodmenu1">
-                    <div class="item_1">
-                        <img src="./images/burger.jpg" alt="Burger" class = "image_format">
-                        <div class = "item_title">
-                            <h2>Burger</h2>
-                        </div>
-                        <hr>
-                        <div class="stars">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/star-grey.svg" alt="" class = "star_info">
-                        </div>
-                        <div class = "price">
-                            Starting @ 50/-
-                        </div>
-                        <div class = "Add_to_cart">
-                            <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
-                            <button class = "Add_cart">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="item_1">
-                        <img src="./images/pizza.jpg" alt="Pizza" class = "image_format">
-                        <div class = "item_title">
-                            <h2>Burger</h2>
-                        </div>
-                        <hr>
-                        <div class="stars">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/star-grey.svg" alt="" class = "star_info">
-                        </div>
-                        <div class = "price">
-                            Starting @ 150/-
-                        </div>
-                        <div class = "Add_to_cart">
-                            <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
-                            <button class = "Add_cart">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="item_1">
-                        <img src="./images/noodles.jpg" alt="Noodles" class = "image_format">
-                        <div class = "item_title">
-                            <h2>Burger</h2>
-                        </div>
-                        <hr>
-                        <div class="stars">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/star-grey.svg" alt="" class = "star_info">
-                        </div>
-                        <div class = "price">
-                            Starting @ 120/-
-                        </div>
-                        <div class = "Add_to_cart">
-                            <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
-                            <button class = "Add_cart">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="item_1">
-                        <img src="./images/Donuts.jpg" alt="Noodles" class = "image_format">
-                        <div class = "item_title">
-                            <h2>Burger</h2>
-                        </div>
-                        <hr>
-                        <div class="stars">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/star-grey.svg" alt="" class = "star_info">
-                        </div>
-                        <div class = "price">
-                            Starting @ 110/-
-                        </div>
-                        <div class = "Add_to_cart">
-                            <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
-                            <button class = "Add_cart">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-                <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-                <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-                <!-- Food Menu 2 -->
-
-                <div class="foodmenu2">
-                    <div class="item_2">
-                        <img src="./images/masala_dosa.jpg" alt="dosa" class = "image_format">
-                        <div class = "item_title">
-                            <h2>Dosa</h2>
-                        </div>
-                        <hr>
-                        <div class="stars">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/star-grey.svg" alt="" class = "star_info">
-                        </div>
-                        <div class = "price">
-                            Starting @ 140/-
-                        </div>
-                        <div class = "Add_to_cart">
-                            <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
-                            <button class = "Add_cart">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="item_2">
-                        <img src="./images/idli.jpg" alt="idle" class = "image_format">
-                        <div class = "item_title">
-                            <h2>Idli</h2>
-                        </div>
-                        <hr>
-                        <div class="stars">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/star-grey.svg" alt="" class = "star_info">
-                        </div>
-                        <div class = "price">
-                            Starting @ 150/-
-                        </div>
-                        <div class = "Add_to_cart">
-                            <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
-                            <button class = "Add_cart">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="item_2">
-                        <img src="./images/paneer.jpg" alt="paneer" class = "image_format">
-                        <div class = "item_title">
-                            <h2>Shahi Paneer</h2>
-                        </div>
-                        <hr>
-                        <div class="stars">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/star-grey.svg" alt="" class = "star_info">
-                        </div>
-                        <div class = "price">
-                            Starting @ 190/-
-                        </div>
-                        <div class = "Add_to_cart">
-                            <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
-                            <button class = "Add_cart">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="item_2">
-                        <img src="./images/biryani.jpg" alt="biryani" class = "image_format">
-                        <div class = "item_title">
-                            <h2>Biryani</h2>
-                        </div>
-                        <hr>
-                        <div class="stars">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/start-filled.svg" alt="" class = "star_info">
-                            <img src="./icons/star-grey.svg" alt="" class = "star_info">
-                        </div>
-                        <div class = "price">
-                            Starting @ 110/-
-                        </div>
-                        <div class = "Add_to_cart">
-                            <img src="./icons/cart-dark.svg" alt="" class = "icon_cart">
-                            <button class = "Add_cart">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class = "About-NM-FOOD" id = "About_us">
-        <div class = "container">
-            <h1 class = "section-heading">About NM Food</h1>
-            <div class = "about__me">
-                <img src="./images/WhatsApp Image 2021-09-04 at 16.56.00.jpeg" alt="">
-                <div class = "about__content">
-                    <h3>
-                        NM Food is a food delivery established in September 2021.
-                    </h3>
-                    <br>
-                    <div>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat dolorem officiis corporis non repellendus natus? Quasi voluptas rerum pariatur odio exercitationem dignissimos natus, optio distinctio voluptatum ipsam dolorem veniam expedita.
-                        <br>
-                        <br>
-                        <button class = "About-NM-FOOD_readmore">
-                            Read More
-                        </button>
-                    </div>   
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="top-items" id = "country_items">
-        <div class = "container">
-            <h1 class = "section-heading">Items</h1>
-            <div class="foodmenu1" >
-                <div class = "item_2">
-                    <img src="./images/indian_food.jpg" alt="" class = "image_format">
-                    <div class = "item_title">
-                        <h2>Indian Food</h2>
-                    </div>
-                    <hr>
-                    <div class = "button_explore">
-                        <button class = "explore_me">
-                            Explore More
-                        </button>
-                    </div>
-                </div>
-
-                <div class = "item_2">
-                    <img src="./images/italian.jpg" alt="" class = "image_format">
-                    <div class = "item_title">
-                        <h2>Italain Food</h2>
-                    </div>
-                    <hr>
-                    <div class = "button_explore">
-                        <button class = "explore_me">
-                            Explore More
-                        </button>
-                    </div>
-                </div>
-
-                <div class = "item_2">
-                    <img src="./images/chinese.jpg" alt="" class = "image_format">
-                    <div class = "item_title">
-                        <h2>Chinese Food</h2>
-                    </div>
-                    <hr>
-                    <div class = "button_explore">
-                        <button class = "explore_me">
-                            Explore More
-                        </button>
-                    </div>
-                </div>
-
-                <div class = "item_2">
-                    <img src="./images/spanish.jpg" alt="" class = "image_format">
-                    <div class = "item_title">
-                        <h2>Spanish Food</h2>
-                    </div>
-                    <hr>
-                    <div class = "button_explore">
-                        <button class = "explore_me">
-                            Explore More
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class = "our-services" id = "services">
-        <div>
-            <h1 class = "section-heading">
-                Our Services
-            </h1>
-            <div class = "class-wrapper">
-                <div class = "service1">
-                    <img src="./icons/transport.svg" alt="" class = "transport">
-                    <h2>
-                        Free Home Delivery
-                    </h2>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quasi repudiandae facere voluptates blanditiis tempora. Ex dolore aut illo cumque dolorum veniam praesentium illum accusamus repellendus error, nam, incidunt obcaecati.
-                    </p>
-                    <button class = "About-NM-FOOD_readmore ">
-                        Read More
-                    </button>
-                </div>
-
-                <div class = "service1">
-                    <img src="./icons/bag.svg" alt="" class = "transport">
-                    <h2>
-                        Fast Delivery
-                    </h2>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quasi repudiandae facere voluptates blanditiis tempora. Ex dolore aut illo cumque dolorum veniam praesentium illum accusamus repellendus error, nam, incidunt obcaecati.
-                    </p>
-                    <button class = "About-NM-FOOD_readmore btn_delivery">
-                        Read More
-                    </button>
-                </div>
-
-                <div class = "service1">
-                    <img src="./icons/usd.svg" alt="" class = "transport">
-                    <h2>
-                        Cashback on First five orders
-                    </h2>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quasi repudiandae facere voluptates blanditiis tempora. Ex dolore aut illo cumque dolorum veniam praesentium illum accusamus repellendus error, nam, incidunt obcaecati.
-                    </p>
-                    <button class = "About-NM-FOOD_readmore ">
-                        Read More
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class = "latest-blog" id = "latest_blog">
-        <div class="container">
-            <h1 class = "section-heading">Latest Blog</h1>
-            <div class="blog_wrapper">
-                <div class="blog1">
-                    <div>
-                        <img src="./images/pizzablog.jpg" alt="" class = "blog_image">
-                    </div>
-                    <div class="blog_content">
-                        <div class="heading_info">
-                            <div>
-                                September 05, 2021
-                            </div>
-                            <div>
-                                Posted by <strong>@Foody lover</strong>
-                            </div>
-                            <div>
-                                <strong>12k  </strong>Likes
-                            </div>
-                            <div>
-                                <strong>2k  </strong>Comments
-                            </div>
-                        </div>
-                        <hr>
-                        <h3>Top 10 ranking in asia for pizza</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam quia ea odio harum corrupti accusantium adipisci? Hic, incidunt quam quos iste suscipit enim eos, provident inventore eligendi, fugiat earum?</p>
-                    </div>
-                </div>
-
-                <div class="blog2">
-                    <div>
-                        <img src="./images/blog_burger.jpg" alt="" class = "blog_image">
-                    </div>
-                    <div class="blog_content">
-                        <div class="heading_info">
-                            <div>
-                                September 05, 2021
-                            </div>
-                            <div>
-                                Posted by <strong>@Foody lover</strong>
-                            </div>
-                            <div>
-                                <strong>12k  </strong>Likes
-                            </div>
-                            <div>
-                                <strong>2k  </strong>Comments
-                            </div>
-                        </div>
-                        <hr>
-                        <h3> Actually Burger here is awesome.</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam quia ea odio harum corrupti accusantium adipisci? Hic, incidunt quam quos iste suscipit enim eos, provident inventore eligendi, fugiat earum?</p>
-                    </div>
-                </div>
-            </div>
-            <center><button class = "Blog_view_more">View More</button></center>
-        </div>
-    </section>
-
-    <section class = "ending_page">
-        <div class = "top_ening">
-            <img src="./images/WhatsApp Image 2021-09-04 at 16.56.00.jpeg" alt="" class = "logo">
-            <div class = "country_selection">
-                <select id="choice">
-                    <option>Choice 1</option>
-                    <option>Choice 2</option>
-                    <option>Choice 3</option>
-                </select>
-            </div>
-        </div>
-    </section>
+    
 </body>
 </html>
